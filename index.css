@@ -1,0 +1,33 @@
+body{
+  background-color:#ff7c14;
+}
+#logo{
+    margin-top:-0px;
+    margin-left:415px;
+    position: absolute;
+
+}
+.loader {
+    border: 16px solid rgb(255, 187, 210);
+    border-radius: 50%;
+    border-color:rgb(255, 255, 255);
+    border-top: 16px solid #3498db;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    top:60%;
+    left:45%;
+    position: absolute;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

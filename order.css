@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Itim&display=swap');
+
+
+
+#bgcolor{
+    background-color:#ff7c14;
+}
+
+.header{
+    text-align: center;
+    font-size: 48px;
+    font-family: itim;
+  }
+
+#canvas-header{
+    text-align: center;
+    font-size: 36px;
+    font-family: itim;
+  }
+#select-food-type{
+    width:400px;
+    left:0%;
+}
+#select-food{
+    width:400px;
+    left:0%;
+}
+#food-price{
+    width:400px;
+    left:0%;
+}
+.order-deatail-canvas{
+    height: auto;
+    overflow-y:visible;
+    overflow-x: hidden;
+    width:550px;
+    height:450px;
+    background-color:#ff7c14;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+} 
+
+
+
+
+
+.steps-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;    
+    gap: 10px;               
+}
+
+#steps-progress1,
+#steps-progress2,
+#steps-progress3,
+#steps-progress4,
+#steps-progress5{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+#steps-progress1 {
+    background-color: blue;
+}
+
+#steps-progress2 {
+    background-color: azure;
+}
+
+#steps-progress3 {
+    background-color: azure;
+}
+
+#steps-progress4 {
+    background-color: azure;
+}
+
+#steps-progress5 {
+    background-color: azure;
+}
+
+
+
+
+
+
+#submit{
+    display: none;
+}
+
+
+
+
+
+
+
+#page-2 .form-floating {
+    margin-bottom: 20px;
+    width:300px; /* Add spacing between fields */
+}
+
+
+
+#page-2 {
+    overflow-y:visible;
+    overflow-x: hidden;
+    display: none; /* This keeps the form hidden initially */
+    margin-top: -130px; /* Move the form fields up */
+    position: relative; /* Allows precise control over positioning */
+    z-index: 1; /* Ensure it's visible above other elements */
+}
+
+
+#select-how{
+    width:300px;
+}
+
+#page-3{
+    overflow-y:visible;
+    overflow-x: hidden;
+    display: none; /* This keeps the form hidden initially */
+    margin-top: -130px; /* Move the form fields up */
+    position: relative; /* Allows precise control over positioning */
+    z-index: 1; 
+}
+
+
+
+#page-4{
+    overflow-y:visible;
+    overflow-x: hidden;
+    display: none; /* This keeps the form hidden initially */
+    margin-top: -130px; /* Move the form fields up */
+    position: relative; /* Allows precise control over positioning */
+    z-index: 1; 
+}
+
+
+
+
+#page-5{
+    overflow-y:visible;
+    overflow-x: hidden;
+    display: none; /* This keeps the form hidden initially */
+    margin-top: -130px; /* Move the form fields up */
+    position: relative; /* Allows precise control over positioning */
+    z-index: 1; 
+}
+
+
+
+#card-credit1{
+    width:300px;
+}
+#card-credit2{
+    width:300px;
+}
+#card-credit3{
+    width:300px;
+}
+
+
+#points-balance {
+    font-size: 3rem;
+    color: #28a745;
+}
+
+#message {
+    font-size: 1.2rem;
+    color: #ff4500;
+}
+
