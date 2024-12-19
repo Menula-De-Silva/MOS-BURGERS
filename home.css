@@ -1,21 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Itim&display=swap');
 
+/* General Styles */
+#fs-4 {
+  color: #ff7c14;
+}
+
+#bgcolor {
+  background-color: #ff7c14;
+}
+
+#btnbg {
+  background-color: #ff7c14;
+  width: 150px;
+}
+
+/* Navbar Search Input */
+#sbg {
+  background-color: #ff7c14;
+  width: 200px;
+}
+
+/* Navbar Responsiveness */
+@media (max-width: 768px) {
+  #fs-4 {
+    font-size: 1.5rem;
+  }
+  #sbg {
+    width: 100%;
+  }
+}
+
+
+
+#move-up{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Itim&display=swap');
+
 #fs-4{
-  margin-right:120px;
+  margin-right:240px;
   color:#ff7c14;
 }
-#bi-database{
-  margin-left:35px;
-}
+
 #bgcolor{
   background-color:#ff7c14;
 }
-#sbg{
-  background-color:#ff7c14;
-  margin-right:-30px;
-}
+
 #btnbg{
   background-color:#ff7c14;
+  width:150px;
 }
 
 
@@ -112,4 +150,63 @@
     border-radius: 10px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+
+
+
+
+
+
+
+
+/* General Styles */
+#fs-4 {
+  color: #ff7c14;
+}
+
+#bgcolor {
+  background-color: #ff7c14;
+}
+
+#btnbg {
+  background-color: #ff7c14;
+  width: 150px;
+}
+
+/* Navbar Search Input */
+#sbg {
+  background-color: #ff7c14;
+  width: 200px;
+}
+
+/* Navbar Responsiveness */
+@media (max-width: 768px) {
+  #fs-4 {
+    font-size: 1.5rem;
+  }
+  #sbg {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color:pink;
+  height:120px;
 }
