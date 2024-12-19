@@ -110,11 +110,12 @@ document.addEventListener("DOMContentLoaded", () => {
             card.className = "col-md-4 mb-4"; // Bootstrap grid classes
             card.innerHTML = `
                 <br>
+                <div id="${item.category}">
                 <div id="full-food-card" class="card shadow-sm">
                     <img id="bd-placeholder-img" src="${item.image}" width="100%" height="225"
                         class="bd-placeholder-img card-img-top" alt="${item.itemName}" />
                     <div class="card-body">
-                        <p class="card-text">${item.itemName} (${item.category})</p>
+                        <p class="card-text">${item.itemName}</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <a href="order.html">
@@ -128,6 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         </div>
                     </div>
                 </div>
+              </div>
                 <br><br>
             `;
             row.appendChild(card);
