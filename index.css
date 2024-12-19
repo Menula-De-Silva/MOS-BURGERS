@@ -1,33 +1,77 @@
-body{
-  background-color:#ff7c14;
+body {
+  background-color: #ff7c14;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 }
-#logo{
-    margin-top:-0px;
-    margin-left:415px;
-    position: absolute;
 
+#logo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: block;
 }
+
 .loader {
-    border: 16px solid rgb(255, 187, 210);
-    border-radius: 50%;
-    border-color:rgb(255, 255, 255);
-    border-top: 16px solid #3498db;
-    width: 80px;
-    height: 80px;
-    -webkit-animation: spin 2s linear infinite; /* Safari */
-    animation: spin 2s linear infinite;
-    top:60%;
-    left:45%;
-    position: absolute;
+  border: 16px solid rgb(255, 187, 210);
+  border-radius: 50%;
+  border-color: rgb(255, 255, 255);
+  border-top: 16px solid #3498db;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
   }
-  
-  /* Safari */
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
   }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media Queries */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  #logo {
+    max-width: 80%;
+  }
+
+  .loader {
+    width: 60px;
+    height: 60px;
+    border-width: 12px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  #logo {
+    max-width: 70%;
+  }
+
+  .loader {
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+  }
+}
