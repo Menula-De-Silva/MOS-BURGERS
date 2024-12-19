@@ -176,3 +176,17 @@
     color: #ff4500;
 }
 
+
+
+
+
+
+/*Mobile*/
+@media (max-width: 480px) {
+
+  .order-deatail-canvas{
+       width:350px;
+       height:450px;
+  }
+
+}
