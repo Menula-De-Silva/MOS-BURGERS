@@ -313,6 +313,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Initial update to populate fields on page load
     updateDetails();
+  
+    let mphp = document.getElementById("cusphnum").addEventListener("input", updateDetails);
+
 });
 
 
@@ -374,3 +377,10 @@ redeemPointsBtn.addEventListener("click", () => {
 
 // Initial display update
 updatePointsDisplay();
+
+
+
+
+
+
+
